@@ -51,12 +51,12 @@ namespace PATISAZON
             //    clientSecret: "");
 
             //app.UseTwitterAuthentication(
-            //   consumerKey: "",
-            //   consumerSecret: "");
+            //   consumerKey: "**************",
+            //   consumerSecret: "*****************");
 
             //app.UseFacebookAuthentication(
-            //   appId: "193947509464386",
-            //   appSecret: "82bdc6c9f157f80980b9929480c0ae52");
+            //   appId: "***************",
+            //   appSecret: "**********************");
 
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {
