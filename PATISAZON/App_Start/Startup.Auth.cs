@@ -60,8 +60,8 @@ namespace PATISAZON
 
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {
-                ClientId = "248627367300-9v5rqkjd80qk5trk74u9d4dfhqml5i4a.apps.googleusercontent.com",
-                ClientSecret = "xnbFvFCMzGYLDzP_8NX322XW"
+                ClientId = "********.apps.googleusercontent.com",
+                ClientSecret = "*********"
             });
         }
     }
