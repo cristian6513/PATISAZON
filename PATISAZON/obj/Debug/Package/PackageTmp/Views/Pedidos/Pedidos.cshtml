@@ -1,0 +1,49 @@
+﻿@using PagedList.Mvc;
+@model PagedList.IPagedList<PATISAZON.Models.Pedidos>
+@{
+    ViewBag.Title = "Pedidos";
+}
+<br />
+<div style="background-color:white; padding:20px;">
+    <h2 class="text-center">PEDIDOS</h2>
+    <br />
+    <br />
+    <table class="contenido-tabla">
+        <thead>
+            <tr>
+                <th><h2 class="h1">Cliente </h2></th>
+                <th><h2 class="h1">Dirección</h2></th>
+                <th><h2 class="h1">Número del cliente</h2></th>
+                <th><h2 class="h1">Día del pedido</h2></th>
+                <th><h2 class="h1">Cantidad y nombre de los platillos</h2></th>
+                <th><h2 class="h1">Estado del pedido</h2></th>
+                <th><h2 class="h1">Acciónes</h2></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.nombre_cliente</td>
+                    <td>@item.direccion_cliente</td>
+                    <td>@item.telefono_celular</td>
+                    <td>@(string.Format("{0:dd/MMM/yyyy}", item.Date))</td>
+                    <td>@item.nombre_cantidad_platillo</td>
+                    <td>@item.estado_pedido</td>
+                    <td>
+                        <a href="~/Pedidos/Editar/@item.id"><i class="fas fa-edit"></i></a>
+                        <a href="~/Pedidos/Eliminar/@item.id" class="text-danger" onclick="return (confirm('deseas eliminar este pedido?'));"><i class="fas fa-trash-alt"></i></a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <br />
+    <br />
+    <div class="text-center table" style="display:inline-block;">
+        PAGINA| <b>@(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)</b> | DE | <b>@Model.PageCount</b>  || TOTAL DE PEDIDOS | <b>@Model.TotalItemCount</b>
+
+        @Html.PagedListPager(Model, page => Url.Action("Pedidos", "Pedidos", new { page, pageSize = ViewBag.PageSize }))
+
+    </div>
+</div>

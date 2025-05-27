@@ -1,0 +1,28 @@
+﻿@model PATISAZON.Models.ExternalLoginListViewModel
+@using Microsoft.Owin.Security
+<br />
+<h4 class="text-center">Fácil inicio de sesión con</h4>
+
+@{
+    var loginProviders = Context.GetOwinContext().Authentication.GetExternalAuthenticationTypes();
+    if (loginProviders.Count() == 0) {
+        <div>
+            <p>
+                No existen servicios de autenticación externos configurados. Consulte <a href="https://go.microsoft.com/fwlink/?LinkId=403804">este artículo</a>
+                para obtener información sobre cómo configurar esta aplicación ASP.NET para admitir el inicio de sesión a través de servicios externos.
+            </p>
+        </div>
+    }
+    else {
+        using (Html.BeginForm("ExternalLogin", "Account", new { ReturnUrl = Model.ReturnUrl })) {
+            @Html.AntiForgeryToken()
+            <div class="button-group pt-40 pb-40 d-flex justify-content-center flex-wrap" id="socialLoginList">
+                <p>
+                    @foreach (AuthenticationDescription p in loginProviders) {
+                        <button type="submit" class="main-btn danger-btn-outline m-2" id="@p.AuthenticationType" name="provider" value="@p.AuthenticationType" title="Inicie sesión con su cuenta @p.Caption"><i class="lni lni-google mr-10"></i>@p.AuthenticationType</button>
+                    }
+                </p>
+            </div>
+        }
+    }
+}

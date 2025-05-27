@@ -1,0 +1,148 @@
+﻿@model PATISAZON.Models.Platillos
+
+@{
+    ViewBag.Title = "Agregar Platillo";
+}
+@{
+    var diasemana = new List<SelectListItem>()
+{
+        new SelectListItem()
+        {
+            Text="Lunes",
+            Value= "Lunes"
+        },
+        new SelectListItem()
+        {
+            Text="Martes",
+            Value="Martes"
+        },
+        new SelectListItem()
+        {
+            Text="Miercoles",
+            Value="Miercoles"
+        },
+        new SelectListItem()
+        {
+            Text="Jueves",
+            Value= "Jueves"
+        },
+        new SelectListItem()
+        {
+            Text="Viernes",
+            Value="Viernes"
+        },
+        new SelectListItem()
+        {
+            Text="Sabado",
+            Value="Sabado"
+        },
+        new SelectListItem()
+        {
+            Text="Domingo",
+            Value="Domingo"
+        },
+    };
+}
+<br />
+<!-- ========== signin-section start ========== -->
+<section class="signin-section">
+    <div class="container-fluid">
+        <div class="row g-0 auth-row">
+            <div class="col-lg-6">
+                <div class="auth-cover-wrapper bg-primary-100">
+                    <div class="auth-cover">
+                        <div class="title text-center">
+                            <h1 class="text-primary mb-10">Sube tu nuevo platillo!</h1>
+                            <p class="text-medium">
+                                
+                                <br class="d-sm-block" />
+                                
+                            </p>
+                        </div>
+                        <div class="cover-image">
+                            <img src="~/Imagenes/agregar platillo.png" style="width:100%; height:300px;" />
+                        </div>
+                        <div class="shape-image">
+                            <img src="assets/images/auth/shape.svg" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end col -->
+            <div class="col-lg-6">
+                <div class="signup-wrapper">
+                    <div class="form-wrapper">
+                        <h6 class="mb-15 text-center">@ViewBag.Title</h6>
+                        <hr />
+                        @using (Html.BeginForm("Agregar", "Platillos", FormMethod.Post, new { role = "form" }))
+                        {
+                            @Html.AntiForgeryToken()
+                            @Html.ValidationSummary("", new { @class = "text-danger" })
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="input-style-1">
+                                        @Html.LabelFor(m => m.nombre_platillo)
+                                        <br />
+                                        <br />
+                                        @Html.TextBoxFor(m => m.nombre_platillo)
+                                        @Html.ValidationMessageFor(m => m.nombre_platillo, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="input-style-1">
+                                        @Html.LabelFor(m => m.foto_platillo)
+                                        <br />
+                                        <br />
+                                        @Html.TextBoxFor(m => m.foto_platillo)
+                                        @Html.ValidationMessageFor(m => m.foto_platillo, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="input-style-1">
+                                        @Html.LabelFor(m => m.descripcion_platillo)
+                                        <br />
+                                        <br />
+                                        @Html.TextAreaFor(m => m.descripcion_platillo)
+                                        @Html.ValidationMessageFor(m => m.descripcion_platillo, "", new { @class = "text-danger", @type = "number" })
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="input-style-1">
+                                        @Html.LabelFor(m => m.precio_platillo)
+                                        <br />
+                                        <br />
+                                        @Html.TextBoxFor(m => m.precio_platillo, new { @type = "number" })
+                                        @Html.ValidationMessageFor(m => m.precio_platillo, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="col-12 ">
+                                    <div class="select-style-1">
+                                        @Html.LabelFor(m => m.categoria)
+                                        <br />
+                                        <br />
+                                        <div class="select-position">
+                                            @Html.DropDownListFor(m => m.categoria, diasemana)
+                                        </div>
+                                        
+                                        @Html.ValidationMessageFor(m => m.categoria, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <!-- end col -->
+                                <div class="col-12">
+                                    <div class="button-group d-flex justify-content-center flex-wrap">
+                                        <button type="submit" class="main-btn primary-btn btn-hover w-100 text-center">
+                                            <i class="fas fa-save"></i>  AGREGAR PLATILLO
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end row -->
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end col -->
+    </div>
+</section>
+

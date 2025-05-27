@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewBag.Title = "Carrito";
+}
+<br />
+<div style="background-color:white; padding:20px">
+    <br />
+    <h2 class="text-center">Carrito de compras</h2>
+    <br />
+    <table class="contenido-tabla">
+        <thead>
+            <tr>
+                <th><h1 class="h1">Nombre del Platillo</h1></th>
+                <th><h1 class="h1">Platillo</h1></th>
+                <th><h1 class="h1">Cantidad</h1></th>
+                <th><h1 class="h1">Precio unitario</h1></th>
+                <th><h1 class="h1">Subtotal</h1></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @{long total = 0; }
+            @if (Session["carrito"] != null)
+        {
+            foreach (var item in Session["carrito"] as List<PATISAZON.Models.ShoppingCart>)
+            {
+                total += item.Food.precio_platillo * item.Cantidad;
+            <tr>
+                <td>@item.Food.nombre_platillo</td>
+                <td class="text-center"><img src="@item.Food.foto_platillo" alt="@item.Food.nombre_platillo" style="width:70px; height:35px;" /></td>
+                <td class="text-center">@item.Cantidad</td>
+                <td>@string.Format("{0:C0}", item.Food.precio_platillo)</td>
+                <td>@string.Format("{0:C0}", item.Food.precio_platillo * item.Cantidad)</td>
+                <td>@Html.ActionLink("Eliminar", "Eliminar", new { id =item.Food.id })</td>
+            </tr>
+            }
+        }
+        </tbody>
+        <tbody>
+            <tr>
+                <td colspan="4">Total</td>
+                <td colspan="2">@string.Format("{0:C0}", total)</td>
+            </tr>
+        </tbody>
+    </table>
+    <br />
+    <a class="btn btn-primary" href="~/Shopping/imagenpedido"><i class="far fa-file-image"></i> Generar pedido</a>
+    <br />
+    <br />
+    <img src="~/Imagenes/carrito.jpg" alt="Alternate Text" style="width:100%; height:120px;">
+</div>

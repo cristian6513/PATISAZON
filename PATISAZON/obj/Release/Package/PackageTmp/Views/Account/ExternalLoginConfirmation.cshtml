@@ -1,0 +1,72 @@
+﻿@model PATISAZON.Models.ExternalLoginConfirmationViewModel
+@{
+    ViewBag.Title = "Registrarse";
+}
+<br />
+<section class="signin-section">
+    <div class="container-fluid">
+        <div class="row g-0 auth-row">
+            <div class="col-lg-6">
+                <div class="auth-cover-wrapper bg-primary-100">
+                    <div class="auth-cover">
+                        <div class="title text-center">
+                            <h1 class="text-primary mb-10">Bienvenido a Patisazon</h1>
+                            <p class="text-medium">
+                                Registrate y empieza a ver nuestra variedad de deliciosos platillos
+                            </p>
+                        </div>
+                        <div class="cover-image">
+                            <img src="~/Imagenes/autenticacion/signup-image.svg" />
+                        </div>
+                        <div class="shape-image">
+                            <img src="~/Imagenes/autenticacion/shape.svg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end col -->
+            <div class="col-lg-6">
+                <div class="signup-wrapper">
+                    <div class="form-wrapper">
+                        <h6 class="mb-15 text-center">@ViewBag.Title</h6>
+                        <p class="text-medium">
+                            Se ha autenticado correctamente con <strong>@ViewBag.LoginProvider</strong>.
+                            Haga clic en el botón Registrar para finalizar
+                            el inicio de sesión.
+                        </p>
+                        <hr />
+                        @using (Html.BeginForm("ExternalLoginConfirmation", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { role = "form" }))
+                        {
+                            @Html.AntiForgeryToken()
+                            @Html.ValidationSummary("", new { @class = "text-danger" })
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="input-style-1">
+                                        @Html.LabelFor(m => m.Email)
+                                        <br />
+                                        @Html.TextBoxFor(m => m.Email)
+                                        @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <!-- end col -->
+                                <div class="col-12">
+                                    <div class="button-group d-flex justify-content-center flex-wrap">
+                                        <button type="submit" class="main-btn primary-btn btn-hover w-100 text-center">
+                                            REGISTRARSE
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end row -->
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end col -->
+    </div>
+</section>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,392 @@
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\PATISAZON.dll.config
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\PATISAZON.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\PATISAZON.pdb
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\csc.exe
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\csc.exe.config
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\csc.rsp
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\csi.exe
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\csi.exe.config
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\csi.rsp
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\Microsoft.CodeAnalysis.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\Microsoft.CSharp.Core.targets
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\Microsoft.Managed.Core.targets
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\Microsoft.VisualBasic.Core.targets
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\Microsoft.Win32.Primitives.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\System.AppContext.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\System.Collections.Immutable.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\System.Console.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\System.Diagnostics.StackTrace.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\System.Globalization.Calendars.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\System.IO.Compression.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\System.IO.Compression.ZipFile.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\System.IO.FileSystem.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\System.IO.FileSystem.Primitives.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\System.Net.Http.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\System.Net.Sockets.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\System.Reflection.Metadata.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\System.Security.Cryptography.Encoding.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\System.Security.Cryptography.Primitives.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\System.Text.Encoding.CodePages.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\System.Threading.Tasks.Extensions.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\System.ValueTuple.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\System.Xml.ReaderWriter.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\System.Xml.XmlDocument.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\System.Xml.XPath.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\System.Xml.XPath.XDocument.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\vbc.exe
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\vbc.exe.config
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\vbc.rsp
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\VBCSCompiler.exe
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\roslyn\VBCSCompiler.exe.config
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\Antlr3.Runtime.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\EntityFramework.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\EntityFramework.SqlServer.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\Microsoft.AspNet.Identity.Core.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\Microsoft.AspNet.Identity.Owin.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\Microsoft.Owin.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\Microsoft.Owin.Host.SystemWeb.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.Cookies.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.Facebook.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.Google.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.OAuth.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.Twitter.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\Microsoft.Web.Infrastructure.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\Newtonsoft.Json.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\Owin.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\System.Web.Helpers.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\System.Web.Mvc.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\System.Web.Optimization.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\System.Web.Razor.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\System.Web.WebPages.Deployment.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\System.Web.WebPages.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\System.Web.WebPages.Razor.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\WebGrease.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\System.Web.Helpers.xml
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\System.Web.Mvc.xml
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\System.Web.Optimization.xml
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\System.Web.Razor.xml
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\System.Web.WebPages.xml
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\System.Web.WebPages.Deployment.xml
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\System.Web.WebPages.Razor.xml
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\Newtonsoft.Json.xml
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\Antlr3.Runtime.pdb
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\EntityFramework.xml
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\EntityFramework.SqlServer.xml
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\Microsoft.AspNet.Identity.Core.xml
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\Microsoft.AspNet.Identity.Owin.xml
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\Microsoft.Owin.xml
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\Microsoft.Owin.Host.SystemWeb.xml
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.xml
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.Facebook.xml
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.Cookies.xml
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.Google.xml
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.Twitter.xml
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.OAuth.xml
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\es\System.Web.Helpers.resources.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\es\System.Web.Mvc.resources.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\es\System.Web.Optimization.resources.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\es\System.Web.Razor.resources.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\es\System.Web.WebPages.resources.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\es\System.Web.WebPages.Deployment.resources.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\es\System.Web.WebPages.Razor.resources.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\es\EntityFramework.resources.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\es\EntityFramework.SqlServer.resources.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\es\Microsoft.Owin.resources.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\es\Microsoft.Owin.Security.resources.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\es\Microsoft.Owin.Security.Google.resources.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\obj\Debug\PATISAZON.csproj.AssemblyReference.cache
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\obj\Debug\PATISAZON.csproj.CoreCompileInputs.cache
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\obj\Debug\PATISAZON.csproj.CopyComplete
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\obj\Debug\PATISAZON.dll
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\obj\Debug\PATISAZON.pdb
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\obj\Debug\PATISAZON.Migrations.patiszon.resources
+T:\tareas\sena\PROYECTO.NET\PATISAZON\PATISAZON\obj\Debug\PATISAZON.csproj.GenerateResource.cache
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\PATISAZON.dll.config
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\PATISAZON.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\PATISAZON.pdb
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\csc.exe
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\csc.exe.config
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\csc.rsp
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\csi.exe
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\csi.exe.config
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\csi.rsp
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\Microsoft.CodeAnalysis.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\Microsoft.CSharp.Core.targets
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\Microsoft.Managed.Core.targets
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\Microsoft.VisualBasic.Core.targets
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\Microsoft.Win32.Primitives.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\System.AppContext.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\System.Collections.Immutable.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\System.Console.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\System.Diagnostics.StackTrace.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\System.Globalization.Calendars.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\System.IO.Compression.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\System.IO.Compression.ZipFile.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\System.IO.FileSystem.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\System.IO.FileSystem.Primitives.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\System.Net.Http.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\System.Net.Sockets.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\System.Reflection.Metadata.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\System.Security.Cryptography.Encoding.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\System.Security.Cryptography.Primitives.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\System.Text.Encoding.CodePages.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\System.Threading.Tasks.Extensions.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\System.ValueTuple.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\System.Xml.ReaderWriter.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\System.Xml.XmlDocument.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\System.Xml.XPath.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\System.Xml.XPath.XDocument.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\vbc.exe
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\vbc.exe.config
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\vbc.rsp
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\VBCSCompiler.exe
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\roslyn\VBCSCompiler.exe.config
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\Antlr3.Runtime.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\EntityFramework.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\EntityFramework.SqlServer.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\Microsoft.AspNet.Identity.Core.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\Microsoft.AspNet.Identity.Owin.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\Microsoft.Owin.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\Microsoft.Owin.Host.SystemWeb.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.Cookies.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.Facebook.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.Google.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.OAuth.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.Twitter.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\Microsoft.Web.Infrastructure.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\Newtonsoft.Json.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\Owin.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\System.Web.Helpers.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\System.Web.Mvc.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\System.Web.Optimization.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\System.Web.Razor.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\System.Web.WebPages.Deployment.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\System.Web.WebPages.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\System.Web.WebPages.Razor.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\WebGrease.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\System.Web.Helpers.xml
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\System.Web.Mvc.xml
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\System.Web.Optimization.xml
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\System.Web.Razor.xml
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\System.Web.WebPages.xml
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\System.Web.WebPages.Deployment.xml
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\System.Web.WebPages.Razor.xml
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\Newtonsoft.Json.xml
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\Antlr3.Runtime.pdb
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\EntityFramework.xml
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\EntityFramework.SqlServer.xml
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\Microsoft.AspNet.Identity.Core.xml
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\Microsoft.AspNet.Identity.Owin.xml
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\Microsoft.Owin.xml
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\Microsoft.Owin.Host.SystemWeb.xml
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.xml
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.Facebook.xml
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.Cookies.xml
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.Google.xml
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.Twitter.xml
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.OAuth.xml
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\es\System.Web.Helpers.resources.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\es\System.Web.Mvc.resources.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\es\System.Web.Optimization.resources.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\es\System.Web.Razor.resources.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\es\System.Web.WebPages.resources.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\es\System.Web.WebPages.Deployment.resources.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\es\System.Web.WebPages.Razor.resources.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\es\EntityFramework.resources.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\es\EntityFramework.SqlServer.resources.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\es\Microsoft.Owin.resources.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\es\Microsoft.Owin.Security.resources.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\es\Microsoft.Owin.Security.Google.resources.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\obj\Debug\PATISAZON.csproj.AssemblyReference.cache
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\obj\Debug\PATISAZON.csproj.CoreCompileInputs.cache
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\obj\Debug\PATISAZON.csproj.CopyComplete
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\obj\Debug\PATISAZON.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\obj\Debug\PATISAZON.pdb
+E:\PATISAZON\PATISAZON\bin\PATISAZON.dll.config
+E:\PATISAZON\PATISAZON\bin\PATISAZON.dll
+E:\PATISAZON\PATISAZON\bin\PATISAZON.pdb
+E:\PATISAZON\PATISAZON\bin\roslyn\csc.exe
+E:\PATISAZON\PATISAZON\bin\roslyn\csc.exe.config
+E:\PATISAZON\PATISAZON\bin\roslyn\csc.rsp
+E:\PATISAZON\PATISAZON\bin\roslyn\csi.exe
+E:\PATISAZON\PATISAZON\bin\roslyn\csi.exe.config
+E:\PATISAZON\PATISAZON\bin\roslyn\csi.rsp
+E:\PATISAZON\PATISAZON\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\PATISAZON\PATISAZON\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\PATISAZON\PATISAZON\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\PATISAZON\PATISAZON\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\PATISAZON\PATISAZON\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\PATISAZON\PATISAZON\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\PATISAZON\PATISAZON\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\PATISAZON\PATISAZON\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\PATISAZON\PATISAZON\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\PATISAZON\PATISAZON\bin\roslyn\Microsoft.Managed.Core.targets
+E:\PATISAZON\PATISAZON\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\PATISAZON\PATISAZON\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\PATISAZON\PATISAZON\bin\roslyn\System.AppContext.dll
+E:\PATISAZON\PATISAZON\bin\roslyn\System.Collections.Immutable.dll
+E:\PATISAZON\PATISAZON\bin\roslyn\System.Console.dll
+E:\PATISAZON\PATISAZON\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\PATISAZON\PATISAZON\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\PATISAZON\PATISAZON\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\PATISAZON\PATISAZON\bin\roslyn\System.Globalization.Calendars.dll
+E:\PATISAZON\PATISAZON\bin\roslyn\System.IO.Compression.dll
+E:\PATISAZON\PATISAZON\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\PATISAZON\PATISAZON\bin\roslyn\System.IO.FileSystem.dll
+E:\PATISAZON\PATISAZON\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\PATISAZON\PATISAZON\bin\roslyn\System.Net.Http.dll
+E:\PATISAZON\PATISAZON\bin\roslyn\System.Net.Sockets.dll
+E:\PATISAZON\PATISAZON\bin\roslyn\System.Reflection.Metadata.dll
+E:\PATISAZON\PATISAZON\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\PATISAZON\PATISAZON\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\PATISAZON\PATISAZON\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\PATISAZON\PATISAZON\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\PATISAZON\PATISAZON\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\PATISAZON\PATISAZON\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\PATISAZON\PATISAZON\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\PATISAZON\PATISAZON\bin\roslyn\System.ValueTuple.dll
+E:\PATISAZON\PATISAZON\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\PATISAZON\PATISAZON\bin\roslyn\System.Xml.XmlDocument.dll
+E:\PATISAZON\PATISAZON\bin\roslyn\System.Xml.XPath.dll
+E:\PATISAZON\PATISAZON\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\PATISAZON\PATISAZON\bin\roslyn\vbc.exe
+E:\PATISAZON\PATISAZON\bin\roslyn\vbc.exe.config
+E:\PATISAZON\PATISAZON\bin\roslyn\vbc.rsp
+E:\PATISAZON\PATISAZON\bin\roslyn\VBCSCompiler.exe
+E:\PATISAZON\PATISAZON\bin\roslyn\VBCSCompiler.exe.config
+E:\PATISAZON\PATISAZON\bin\Antlr3.Runtime.dll
+E:\PATISAZON\PATISAZON\bin\EntityFramework.dll
+E:\PATISAZON\PATISAZON\bin\EntityFramework.SqlServer.dll
+E:\PATISAZON\PATISAZON\bin\Microsoft.AspNet.Identity.Core.dll
+E:\PATISAZON\PATISAZON\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\PATISAZON\PATISAZON\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\PATISAZON\PATISAZON\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\PATISAZON\PATISAZON\bin\Microsoft.Owin.dll
+E:\PATISAZON\PATISAZON\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.Cookies.dll
+E:\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.dll
+E:\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.Facebook.dll
+E:\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.Google.dll
+E:\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.OAuth.dll
+E:\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.Twitter.dll
+E:\PATISAZON\PATISAZON\bin\Microsoft.Web.Infrastructure.dll
+E:\PATISAZON\PATISAZON\bin\Newtonsoft.Json.dll
+E:\PATISAZON\PATISAZON\bin\Owin.dll
+E:\PATISAZON\PATISAZON\bin\System.Web.Helpers.dll
+E:\PATISAZON\PATISAZON\bin\System.Web.Mvc.dll
+E:\PATISAZON\PATISAZON\bin\System.Web.Optimization.dll
+E:\PATISAZON\PATISAZON\bin\System.Web.Razor.dll
+E:\PATISAZON\PATISAZON\bin\System.Web.WebPages.Deployment.dll
+E:\PATISAZON\PATISAZON\bin\System.Web.WebPages.dll
+E:\PATISAZON\PATISAZON\bin\System.Web.WebPages.Razor.dll
+E:\PATISAZON\PATISAZON\bin\WebGrease.dll
+E:\PATISAZON\PATISAZON\bin\System.Web.Helpers.xml
+E:\PATISAZON\PATISAZON\bin\System.Web.Mvc.xml
+E:\PATISAZON\PATISAZON\bin\System.Web.Optimization.xml
+E:\PATISAZON\PATISAZON\bin\System.Web.Razor.xml
+E:\PATISAZON\PATISAZON\bin\System.Web.WebPages.xml
+E:\PATISAZON\PATISAZON\bin\System.Web.WebPages.Deployment.xml
+E:\PATISAZON\PATISAZON\bin\System.Web.WebPages.Razor.xml
+E:\PATISAZON\PATISAZON\bin\Newtonsoft.Json.xml
+E:\PATISAZON\PATISAZON\bin\Antlr3.Runtime.pdb
+E:\PATISAZON\PATISAZON\bin\EntityFramework.xml
+E:\PATISAZON\PATISAZON\bin\EntityFramework.SqlServer.xml
+E:\PATISAZON\PATISAZON\bin\Microsoft.AspNet.Identity.Core.xml
+E:\PATISAZON\PATISAZON\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\PATISAZON\PATISAZON\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\PATISAZON\PATISAZON\bin\Microsoft.Owin.xml
+E:\PATISAZON\PATISAZON\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.xml
+E:\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.Facebook.xml
+E:\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.Cookies.xml
+E:\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.Google.xml
+E:\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.Twitter.xml
+E:\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\PATISAZON\PATISAZON\bin\Microsoft.Owin.Security.OAuth.xml
+E:\PATISAZON\PATISAZON\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\PATISAZON\PATISAZON\bin\es\System.Web.Helpers.resources.dll
+E:\PATISAZON\PATISAZON\bin\es\System.Web.Mvc.resources.dll
+E:\PATISAZON\PATISAZON\bin\es\System.Web.Optimization.resources.dll
+E:\PATISAZON\PATISAZON\bin\es\System.Web.Razor.resources.dll
+E:\PATISAZON\PATISAZON\bin\es\System.Web.WebPages.resources.dll
+E:\PATISAZON\PATISAZON\bin\es\System.Web.WebPages.Deployment.resources.dll
+E:\PATISAZON\PATISAZON\bin\es\System.Web.WebPages.Razor.resources.dll
+E:\PATISAZON\PATISAZON\bin\es\EntityFramework.resources.dll
+E:\PATISAZON\PATISAZON\bin\es\EntityFramework.SqlServer.resources.dll
+E:\PATISAZON\PATISAZON\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+E:\PATISAZON\PATISAZON\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+E:\PATISAZON\PATISAZON\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+E:\PATISAZON\PATISAZON\bin\es\Microsoft.Owin.resources.dll
+E:\PATISAZON\PATISAZON\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+E:\PATISAZON\PATISAZON\bin\es\Microsoft.Owin.Security.resources.dll
+E:\PATISAZON\PATISAZON\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+E:\PATISAZON\PATISAZON\bin\es\Microsoft.Owin.Security.Google.resources.dll
+E:\PATISAZON\PATISAZON\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+E:\PATISAZON\PATISAZON\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+E:\PATISAZON\PATISAZON\obj\Debug\PATISAZON.csprojAssemblyReference.cache
+E:\PATISAZON\PATISAZON\obj\Debug\PATISAZON.Migrations.PATI.resources
+E:\PATISAZON\PATISAZON\obj\Debug\PATISAZON.csproj.GenerateResource.cache
+E:\PATISAZON\PATISAZON\obj\Debug\PATISAZON.csproj.CoreCompileInputs.cache
+E:\PATISAZON\PATISAZON\obj\Debug\PATISAZON.csproj.CopyComplete
+E:\PATISAZON\PATISAZON\obj\Debug\PATISAZON.dll
+E:\PATISAZON\PATISAZON\obj\Debug\PATISAZON.pdb
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\Rotativa.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\obj\Debug\PATISAZON.Migrations.pati.resources
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\obj\Debug\PATISAZON.csproj.GenerateResource.cache
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\PagedList.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\PagedList.Mvc.dll
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\PagedList.xml
+T:\tareas\sena\PROYECTO.NET\ACTUALIZACION PATISAZON\PATISAZON\PATISAZON\bin\PagedList.Mvc.xml

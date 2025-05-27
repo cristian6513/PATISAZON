@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="Data Source=SQL5108.site4now.net;Initial Catalog=db_a79c9d_patisazon;User Id=db_a79c9d_patisazon_admin;Password=Daniel0710" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="T:\\tareas\\sena\\PROYECTO\.NET\\ACTUALIZACION\ PATISAZON\\PATISAZON\\PATISAZON\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="DefaultConnection_DatabasePublish-Web.config Connection String" description="DefaultConnection_DatabasePublish Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="DefaultConnection_DatabasePublish.ConnetionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="T:\\tareas\\sena\\PROYECTO\.NET\\ACTUALIZACION\ PATISAZON\\PATISAZON\\PATISAZON\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection_DatabasePublish']/@connectionString" />
+  </parameter>
+</parameters>

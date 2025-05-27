@@ -1,0 +1,27 @@
+﻿@model IEnumerable<PATISAZON.Models.Platillos>
+
+@{
+    ViewBag.Title = "Platillos";
+}
+<br />
+<div style="background-color:white; padding:30px">
+    <h2 class="text-center">Platillos</h2>
+    <div class="contenido">
+        @foreach (var item in Model)
+        {
+            <figure class="snip1249">
+                <div class="imagen">
+                    <img src="@item.foto_platillo" alt="@item.nombre_platillo" style="width:320px; height:210px;" />
+                </div>
+                <figcaption>
+                    <h5>@item.nombre_platillo</h5>
+                    <div class="price">
+                        $ @item.precio_platillo
+                    </div>
+                    <a href="~/Platillos/Editar/@item.id" class="btn btn-outline-primary"><i class="fas fa-edit"></i></a>
+                    <a href="~/Platillos/Eliminar/@item.id" class="btn btn-outline-danger" onclick="return (confirm('deseas eliminar esta comida'));"><i class="fas fa-trash-alt"></i></a>
+                </figcaption>
+            </figure>
+        }
+    </div>
+</div>

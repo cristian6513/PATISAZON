@@ -1,0 +1,135 @@
+﻿@using Microsoft.AspNet.Identity
+<main class="main-wrapper">
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-5 col-md-5 col-6">
+                    <div class="header-left d-flex align-items-center">
+                        <div class="menu-toggle-btn mr-20">
+                            <button id="menu-toggle"
+                                    class="main-btn primary-btn btn-hover">
+                                <i class="lni lni-chevron-left me-2"></i> MENU
+                            </button>
+                        </div>
+                        <div class="header-search d-none d-md-flex">
+                            @*<form action="#">
+                                    <input type="text" placeholder="Search..." />
+                                    <button><i class="lni lni-search-alt"></i></button>
+                                </form>*@
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-7 col-6">
+                    <div class="header-right">
+                        <!-- notification start -->
+                        <div class="notification-box ml-15 d-none d-md-flex">
+                            @if (Request.IsAuthenticated)
+                            {
+                                <button class="dropdown-toggle"
+                                        type="button"
+                                        id="notification"
+                                        data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+
+                                    @{
+                                        if (Session["carrito"] == null)
+                                        {
+                                            <i class="fas fa-cart-plus"></i>
+                                        }
+                                        else
+                                        {
+                                            int platos = ((List<PATISAZON.Models.ShoppingCart>)Session["carrito"]).Count();
+                                            if (platos > 0)
+                                            {
+                                                <i class="fas fa-shopping-cart"></i>
+                                                <span>@platos</span>
+                                            }
+                                            else
+                                            {
+                                                <i class="fas fa-cart-plus"></i>
+                                            }
+                                        }
+                                    }
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end"
+                                    aria-labelledby="message">
+
+
+                                    @{long total = 0; }
+                                    @if (Session["carrito"] != null)
+                                    {
+                                        foreach (var item in Session["carrito"] as List<PATISAZON.Models.ShoppingCart>)
+                                        {
+                                            total += item.Food.precio_platillo * item.Cantidad;
+                                            <li>
+                                                <a href="#0">
+                                                    <div class="image">
+                                                        <img src="@item.Food.foto_platillo" alt="@item.Food.nombre_platillo" />
+                                                    </div>
+                                                    <div class="content">
+                                                        <h4>@item.Food.nombre_platillo: </h4>
+                                                    </div>
+                                                    <div class="content">
+                                                        <p>Cantidad: @item.Cantidad</p>
+                                                    </div>
+                                                    <div class="content">
+                                                        <span>Precio: @string.Format("{0:C0}", item.Food.precio_platillo)</span>
+
+                                                    </div>
+                                                    <a href="~/Shopping/Eliminar/@item.Food.id" class="text-danger"><i class="fas fa-trash-alt"></i></a>
+                                                </a>
+                                            </li>
+                                        }
+                                    }
+
+
+                                </ul>
+                            }
+                            @if (Request.IsAuthenticated)
+                            {
+                                using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" }))
+                                {
+                                    @Html.AntiForgeryToken()
+                                    <div class="profile-box ml-15">
+                                        <button class="dropdown-toggle bg-transparent border-0"
+                                                type="button"
+                                                id="profile"
+                                                data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                            <div class="profile-info">
+                                                <div class="info">
+                                                    <h6>@Html.ActionLink(User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })</h6>
+                                                </div>
+                                            </div>
+                                            <i class="lni lni-chevron-down"></i>
+                                        </button>
+                                        <ul class="dropdown-menu dropdown-menu-end"
+                                            aria-labelledby="profile">
+                                            <li>
+                                                <a href="~/Manage/SetPassword"> <i class="lni lni-cog"></i> CONFIGURACION </a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:document.getElementById('logoutForm').submit()"><i class="lni lni-exit"></i> CERRAR SESION</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                }
+                            }
+                            @if (!Request.IsAuthenticated)
+                            {
+                                <div class="profile-box ml-15">
+                                    <div class="profile-info" style="display:flex">
+                                        <div class="info" style="padding-right:20px; padding-top:12px;">
+                                            <h6><a href="~/Account/Login"><i class="fas fa-user"></i> INICIAR SESION</a></h6>
+                                        </div>
+                                        <div class="info" style="padding-left:20px; padding-top:12px;">
+                                        <h6><a href="~/Account/Register"><i class="fas fa-user-plus"></i> REGISTRARSE</a></h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                </div>
+            </div>
+        </div>
+    </header>

@@ -1,0 +1,168 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<br />
+<div class="signin-wrapper">
+    <div class="form-wrapper">
+        <div class="row col-sm-12 col-lg-12 col-md-12">
+            <div class="alert alert-secondary alert-dismissible fade show" role="alert">
+                <h4 class="alert-heading text-center">@ViewBag.Message</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <div class="col-sm-6 col-lg-6 col-md-6">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h4>Lista de Roles</h4>
+                    </div>
+                    <div class="panel-body">
+                        <table class="table table-striped table-hover col-sm-6 col-lg-6 col-md-6 ">
+                            @foreach (var role in ViewBag.Roles)
+                            {
+                                <tr>
+                                    <td class="col-sm-1 col-lg-5 col-md-5">
+                                        <strong>@role.Text </strong>
+                                    </td>
+                                    @*<td class="col-sm-1 col-lg-1 col-md-1">
+                                        <span onclick="return confirm('¿Estás seguro de eliminarlo?')"><a href="/Roles/Delete?RoleName=@role.Text" class="delLink" style="color:red;">Eliminar</a></span> |
+                                        @Html.ActionLink("Editar", "Edit", new { roleName = @role.Text })
+                                    </td>*@
+                                </tr>
+                            }
+                        </table>
+                    </div> <!-- End Panel Body-->
+                </div> <!-- End Panel -->
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h4>Crear un nuevo rol</h4>
+                    </div>
+                    <div class="panel-body">
+                        @using (Html.BeginForm("Create", "Roles", new { @class = "form-horizontal" }))
+                        {
+                            @Html.AntiForgeryToken()
+                            @Html.ValidationSummary(true)
+
+                            <div class="input-style-1">
+                                <p>Nombre del rol:</p>
+                                <br />
+                                <input disabled="disabled" name="RoleName" />
+                                <br />
+                                <br />
+                                <div class="button-group d-flex justify-content-center flex-wrap">
+                                    <button type="submit" class="main-btn primary-btn btn-hover w-100 text-center" disabled="disabled">
+                                        GUARDAR
+                                    </button>
+                                </div>
+                            </div>
+                        }
+                    </div> <!--End Panel Body-->
+                </div> <!--End Panel-->
+                <HR />
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h4>Roles del usuario</h4>
+                    </div>
+                    <div class="panel-body">
+                        @using (Html.BeginForm("GetRoles", "Roles"))
+                        {
+                            @Html.AntiForgeryToken()
+                            <div class="select-style-1">
+                                Correo del usuario:
+                                <div class="select-position">
+                                    @Html.DropDownList("UserName", (IEnumerable<SelectListItem>)ViewBag.Users, "Select ...")
+                                </div>
+                                <br />
+                                <div class="button-group d-flex justify-content-center flex-wrap">
+                                    <button type="submit" class="main-btn primary-btn btn-hover w-100 text-center">
+                                        BUSCAR ROLES DEL USUARIO
+                                    </button>
+                                </div>
+                            </div>
+                        }
+                        <br />
+                        @if (ViewBag.RolesForThisUser != null)
+                        {
+                            <div class="alert-box success-alert pl-100">
+                                <div class="left">
+                                    <h5 class="text-bold">Roles del usuario</h5>
+                                </div>
+                                <div class="alert">
+                                    @foreach (string s in ViewBag.RolesForThisUser)
+                                    {
+                                        <h4 class="alert-heading">@s</h4>
+                                    }
+                                </div>
+                            </div>
+                        }
+                    </div> <!-- End Panel Body-->
+                </div> <!-- End Panel -->
+            </div> <!--End First Column-->
+
+            <div class="col-sm-6 col-lg-6 col-md-6">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h4>Agregar rol a un usuario</h4>
+                    </div>
+                    <div class="panel-body">
+                        @using (Html.BeginForm("RoleAddToUser", "Roles"))
+                        {
+                            @Html.AntiForgeryToken()
+                            @Html.ValidationSummary(true)
+                            <div class="select-style-1">
+                                <p>Correo del usuario: </p>
+                                <div class="select-position">
+                                    @Html.DropDownList("UserName", (IEnumerable<SelectListItem>)ViewBag.Users, "Select ...")
+                                </div>
+
+                                <p>Nombre del rol: </p>
+                                <div class="select-position">
+                                    @Html.DropDownList("RoleName", (IEnumerable<SelectListItem>)ViewBag.Roles, "Select ...")
+                                </div>
+                                <br />
+                                <div class="button-group d-flex justify-content-center flex-wrap">
+                                    <button type="submit" class="main-btn primary-btn btn-hover w-100 text-center">
+                                        GUARDAR
+                                    </button>
+                                </div>
+                            </div>
+                        }
+                    </div> <!-- End Panel Body-->
+                </div> <!-- End Panel -->
+
+                <hr />
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h4>Eliminar rol del usuario</h4>
+                    </div>
+                    <div class="panel-body">
+                        @using (Html.BeginForm("DeleteRoleForUser", "Roles"))
+                        {
+                            @Html.AntiForgeryToken()
+                            @Html.ValidationSummary(true)
+                            <div class="select-style-1">
+                                <p>Correo del usuario: </p>
+                                <div class="select-position">
+                                    @Html.DropDownList("UserName", (IEnumerable<SelectListItem>)ViewBag.Users, "Select ...")
+                                </div>
+                                <br />
+                                <p>Nombre del rol: </p>
+                                <div class="select-position">
+                                    @Html.DropDownList("RoleName", (IEnumerable<SelectListItem>)ViewBag.Roles, "Select ...")
+                                </div>
+                                <br />
+                                <div class="button-group d-flex justify-content-center flex-wrap">
+                                    <button type="submit" class="main-btn primary-btn btn-hover w-100 text-center">
+                                        ELIMINAR ROL DEL USUARIO
+                                    </button>
+                                </div>
+                            </div>
+                        }
+                    </div> <!-- End Panel Body-->
+                </div> <!-- End Panel -->
+
+            </div> <!--End Second Column-->
+
+        </div>  <!--Overall Page Wrapper-->
+        <br />
+    </div>
+</div>

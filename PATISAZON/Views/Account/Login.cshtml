@@ -1,0 +1,103 @@
+﻿@using PATISAZON.Models
+@model LoginViewModel
+@{
+    ViewBag.Title = "Iniciar sesión";
+}
+
+<!-- ========== signin-section start ========== -->
+<section class="signin-section">
+    <div class="container-fluid">
+        <!-- ========== title-wrapper start ========== -->
+        <br />
+        <!-- ========== title-wrapper end ========== -->
+
+        <div class="row g-0 auth-row">
+            <div class="col-lg-6">
+                <div class="auth-cover-wrapper bg-primary-100">
+                    <div class="auth-cover">
+                        <div class="title text-center">
+                            <h1 class="text-primary mb-10">Bienvenido a Patisazon</h1>
+                            <p class="text-medium">
+                                Inicie sesión en su cuenta para continuar
+                            </p>
+                        </div>
+                        <div class="cover-image">
+                            <img src="~/Imagenes/autenticacion/signin-image.svg" />
+                        </div>
+                        <div class="shape-image">
+                            <img src="~/Imagenes/autenticacion/shape.svg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end col -->
+            <div class="col-lg-6">
+                <div class="signin-wrapper">
+                    <div class="form-wrapper">
+                        <h4 class="text-center">@ViewBag.Title</h4>
+                        <hr />
+                        @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { role = "form" }))
+                        {
+                            @Html.AntiForgeryToken()
+
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="input-style-1">
+                                        @Html.LabelFor(m => m.Email)
+                                        <br />
+                                        @Html.TextBoxFor(m => m.Email)
+                                        @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="input-style-1">
+                                        @Html.LabelFor(m => m.Password)
+                                        <br />
+                                        @Html.PasswordFor(m => m.Password)
+                                        @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="col-xxl-6 col-lg-12 col-md-6">
+                                    <div class="form-check checkbox-style mb-30">
+                                        @Html.CheckBoxFor(m => m.RememberMe, new { @class = "form-check-input" })
+                                        <div class="input-style-1">
+                                            @Html.LabelFor(m => m.RememberMe, new { @class = "form-check-label" })
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-6 col-lg-12 col-md-6">
+                                    <div class="text-start text-md-end text-lg-start text-xxl-end mb-30">
+                                        @Html.ActionLink("¿Ha olvidado su contraseña?", "ForgotPassword")
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="button-group d-flex justify-content-center flex-wrap">
+                                        <button type="submit" class="main-btn primary-btn btn-hover w-100 text-center">
+                                            INICIAR
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                        <div class="col-12">
+                            <section id="socialLoginForm">
+                                @Html.Partial("_ExternalLoginsListPartial", new ExternalLoginListViewModel { ReturnUrl = ViewBag.ReturnUrl })
+                            </section>
+                        </div>
+
+                        <p class="text-sm text-medium text-dark text-center">
+                            @Html.ActionLink("Registrarse como nuevo usuario", "Register")
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- end col -->
+        </div>
+        <!-- end row -->
+    </div>
+</section>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

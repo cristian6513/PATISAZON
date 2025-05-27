@@ -1,0 +1,33 @@
+﻿@model PATISAZON.Models.Platillos
+
+@{
+    ViewBag.Title = "Detalles";
+}
+<br />
+<div style="background-color:white; padding:30px">
+    <h1 class="text-center">@Html.DisplayFor(model => model.nombre_platillo)</h1>
+    <hr />
+    <div>
+        <center>
+            <img src="@Url.Content(Model.foto_platillo)" width="550" height="350" />
+        </center>
+        <br />
+        <br />
+        <h2>Ingredientes</h2>
+        @Html.DisplayFor(model => model.descripcion_platillo)
+        <br />
+        <br />
+        <h3>Precio</h3>
+        @Html.DisplayFor(model => model.precio_platillo)
+        <br />
+        <br />
+        <h3>Dia en que se sirve el platillo</h3>
+        @Html.DisplayFor(model => model.categoria)
+        <br />
+        <br />
+        <center>
+            <a href="~/Shopping/Agregar/@Model.id" class="btn btn-primary"><i class="fas fa-shopping-cart"></i></a>
+            <a class="btn btn-primary" href="~/Shopping/Platillos">     <i class="fas fa-arrow-left"></i>     </a>
+        </center>
+    </div>
+</div>

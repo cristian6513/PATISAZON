@@ -1,0 +1,289 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PATISAZON</title>
+    <link rel="icon" href="~/Imagenes/LOGO 1.jpeg" />
+    <link href="~/lib/font-awesome/css/all.min.css" rel="stylesheet" />
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <aside class="sidebar-nav-wrapper">
+        <div class="navbar-logo">
+            <a href="#">
+                <img src="~/Imagenes/LOGO 1.jpeg" alt="logo" style="width:100px;height:100px;border-radius:100%" />
+            </a>
+        </div>
+        <nav class="sidebar-nav">
+            <span class="divider"><hr /></span>
+            <ul>
+                <li class="nav-item nav-item-has-children">
+                    <a href="#0"
+                       class="collapsed"
+                       data-bs-toggle="collapse"
+                       data-bs-target="#ddmenu_1"
+                       aria-controls="ddmenu_1"
+                       aria-expanded="false"
+                       aria-label="Toggle navigation">
+                        <span class="icon"><img src="~/Imagenes/LOGO 1.jpeg" alt="logo" style="width:20px;height:20px;border-radius:100%" /></span>
+                        <span class="text">PA'TI SAZON</span>
+                    </a>
+                    <ul id="ddmenu_1" class="collapse dropdown-nav">
+                        <li>
+                            <a href="~/Home/Index">
+                                <i class="fas fa-home"></i> INICIO
+                            </a>
+                        </li>
+                        <li>
+                            <a href="~/Home/Contact">
+                                <i class="fas fa-address-book"></i> CONTACTOS
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                @if (Request.IsAuthenticated)
+                {
+                    <li class="nav-item nav-item-has-children">
+                        <a href="#0"
+                           class=""
+                           data-bs-toggle="collapse"
+                           data-bs-target="#ddmenu_2"
+                           aria-controls="ddmenu_2"
+                           aria-expanded="false"
+                           aria-label="Toggle navigation">
+                            <span class="icon"><i class="fas fa-utensils"></i></span>
+                            <span class="text">PLATILLOS</span>
+                        </a>
+                        <ul id="ddmenu_2" class="collapse show dropdown-nav">
+                            @if (ViewContext.HttpContext.User.IsInRole("Administrador"))
+                            {
+                                <li>
+                                    <a href="~/Platillos/Agregar">
+                                        <i class="fas fa-plus"></i> AGREGAR PLATILLO
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="~/Platillos/Platillos">
+                                        <i class="fas fa-utensils"></i> PLATILLOS ADMIN
+                                    </a>
+                                </li>
+                            }
+
+
+                            <li>
+                                <a href="~/Shopping/Platillos">
+                                    <i class="fas fa-utensils"></i> PLATILLOS
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="~/Shopping/Carrito">
+                            <span class="icon"><i class="fas fa-shopping-cart"></i></span>
+                            <span class="text">CARRITO DE COMPRAS</span>
+                        </a>
+                    </li>
+                }
+
+                @if (!Request.IsAuthenticated)
+                {
+                    <li class="nav-item nav-item-has-children">
+                        <a href="#0"
+                           class="collapsed"
+                           data-bs-toggle="collapse"
+                           data-bs-target="#ddmenu_3"
+                           aria-controls="ddmenu_3"
+                           aria-expanded="false"
+                           aria-label="Toggle navigation">
+                            <span class="icon"><i class="fas fa-users"></i></span>
+                            <span class="text">AUTENTICACION</span>
+                        </a>
+                        <ul id="ddmenu_3" class="collapse dropdown-nav">
+                            <li>
+                                <a href="~/Account/Login">
+                                    <i class="fas fa-user"></i> INICIAR SESIÓN
+                                </a>
+                            </li>
+                            <li>
+                                <a href="~/Account/Register">
+                                    <i class="fas fa-user-plus"></i> REGISTRARSE
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                }
+                @if (ViewContext.HttpContext.User.IsInRole("Administrador"))
+                {
+
+                    <li class="nav-item nav-item-has-children">
+                        <a href="#0"
+                           class="collapsed"
+                           data-bs-toggle="collapse"
+                           data-bs-target="#ddmenu_4"
+                           aria-controls="ddmenu_4"
+                           aria-expanded="false"
+                           aria-label="Toggle navigation">
+                            <span class="icon"><i class="lni lni-layout"></i></span>
+                            <span class="text">PEDIDOS </span>
+                        </a>
+                        <ul id="ddmenu_4" class="collapse dropdown-nav">
+                            <li>
+                                <a href="~/Pedidos/Agregar">
+                                    <i class="lni lni-arrow-right"></i> HACER PEDIDOS
+                                </a>
+                            </li>
+                            <li>
+                                <a href="~/Pedidos/Pedidos">
+                                    <i class="lni lni-arrow-right"></i> PEDIDOS
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                }
+                @if (Request.IsAuthenticated)
+                {
+                    using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        <li class="nav-item nav-item-has-children">
+                            <a href="#0"
+                               class="collapsed"
+                               data-bs-toggle="collapse"
+                               data-bs-target="#ddmenu_55"
+                               aria-controls="ddmenu_55"
+                               aria-expanded="false"
+                               aria-label="Toggle navigation">
+                                <span class="icon"><i class="fas fa-user"></i></span>
+                                <span class="text">CUENTA</span>
+                            </a>
+                            <ul id="ddmenu_55" class="collapse dropdown-nav">
+                                <li>
+                                    <a href="~/Manage/SetPassword"> <i class="lni lni-cog"></i> CONFIGURACION </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:document.getElementById('logoutForm').submit()"><i class="lni lni-exit"></i> CERRAR SESION</a>
+                                </li>
+                            </ul>
+                        </li>
+                    }
+                }
+                @*<li class="nav-item nav-item-has-children">
+            <a href="#0"
+               class="collapsed"
+               data-bs-toggle="collapse"
+               data-bs-target="#ddmenu_5"
+               aria-controls="ddmenu_5"
+               aria-expanded="false"
+               aria-label="Toggle navigation">
+                <span class="icon"><i class="lni lni-check-box"></i></span>
+                <span class="text"> Forms </span>
+            </a>
+            <ul id="ddmenu_5" class="collapse dropdown-nav">
+                <li>
+                    <a href="form-elements.html">
+                        <i class="lni lni-arrow-right"></i> Form Elements
+                    </a>
+                </li>
+            </ul>
+        </li>*@
+                @if (ViewContext.HttpContext.User.IsInRole("Administrador"))
+                {
+                    <span class="divider"><hr /></span>
+                    <li class="nav-item">
+                        <a href="~/Roles/Index">
+                            <span class="icon"><i class="lni lni-grid-alt"></i></span>
+                            <span class="text">AGREGAR ROLES</span>
+                        </a>
+                    </li>
+                }
+</nav>
+    </aside>
+    <div class="overlay"></div>
+    <!-- ======== sidebar-nav end =========== -->
+    <!-- ========== header start ========== -->
+    @Html.Partial("_LoginPartial")
+    <!-- ========== header end ========== -->
+    <div class="container-fluid">
+        @RenderBody()
+    </div>
+    <!-- ========== footer start =========== -->
+    <br />
+    <div class="pie-pagina">
+        <footer class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 order-last order-md-first">
+                        <div class="copyright text-center text-md-start">
+                            <p class="text-sm">
+                                &copy; @DateTime.Now.ToString("D")
+
+                            </p>
+                        </div>
+                    </div>
+                    <!-- end col-->
+                    <div class="col-md-6">
+                        <div class="terms d-flex justify-content-center justify-content-md-end">
+                            <p>PA'TI SAZON</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+            <div class="contenedor-redes-sociales">
+                <p style="font-size:1.5em;">Puedes contactarnos y hacer tus pedidos en nuestras redes sociales</p>
+                <br />
+                <a class="facebook a"
+                   href="https://www.facebook.com/Restaurante-PATI-Sazon-104358148668924/menu/"
+                   target="_blank">
+                    <span class="circulo span"><i class="fab fa-facebook-f"></i></span>
+                    <span class="titulo span">Facebook</span>
+                    <span class="titulo-hover span">Facebook</span>
+                </a>
+
+                @*<a class="twitter a"
+                       href="#"
+                       target="_blank">
+                        <span class="circulo span"><i class="fab fa-twitter"></i></span>
+                        <span class="titulo span">Twitter</span>
+                        <span class="titulo-hover span">Twitter</span>
+                    </a>*@
+
+                <a class="gplus a"
+                   href="https://www.instagram.com/patisazon/"
+                   target="_blank">
+                    <span class="circulo span"><i class="fab fa-instagram"></i></span>
+                    <span class="titulo span">Instagram</span>
+                    <span class="titulo-hover span">Instagram</span>
+                </a>
+                <a class="whatsapp a"
+                   href="https://wa.link/haqdvt"
+                   target="_blank">
+                    <span class="circulo span"><i class="fab fa-whatsapp"></i></span>
+                    <span class="titulo span">Whatsapp</span>
+                    <span class="titulo-hover span">Whatsapp</span>
+                </a>
+            </div>
+        </footer>
+    </div>
+    </main>
+    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
+    <script src="~/Scripts/Chart.min.js"></script>
+    <script src="~/Scripts/dynamic-pie-chart.js"></script>
+    <script src="~/Scripts/fullcalendar.js"></script>
+    <script src="~/Scripts/jvectormap.min.js"></script>
+    <script src="~/Scripts/main.js"></script>
+    <script src="~/Scripts/modernizr-2.8.3.js"></script>
+    <script src="~/Scripts/moment.min.js"></script>
+    <script src="~/Scripts/polyfill.js"></script>
+    <script src="~/Scripts/world-merc.js"></script>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

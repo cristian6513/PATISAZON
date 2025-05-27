@@ -1,0 +1,57 @@
+﻿@model PATISAZON.Models.Platillos
+
+@{
+    ViewBag.Title = "Detalles";
+}
+
+<h2>Detalles</h2>
+
+<div>
+    <h4>Platillos</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nombre_platillo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nombre_platillo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.foto_platillo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.foto_platillo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.descripcion_platillo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.descripcion_platillo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.precio_platillo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.precio_platillo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.categoria)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.categoria)
+        </dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

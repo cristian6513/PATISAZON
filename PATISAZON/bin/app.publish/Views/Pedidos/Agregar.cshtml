@@ -1,0 +1,135 @@
+﻿@model PATISAZON.Models.Pedidos
+@{
+    ViewBag.Title = "Agregar pedido";
+}
+@{
+    var estado = new List<SelectListItem>()
+{
+        new SelectListItem()
+        {
+            Text="Pendiente",
+            Value= "Pendiente"
+        },
+        new SelectListItem()
+        {
+            Text="Fallido",
+            Value="Fallido"
+        },
+        new SelectListItem()
+        {
+            Text="Exitoso",
+            Value="Exitoso"
+        }
+    };
+}
+<br />
+<!-- ========== signin-section start ========== -->
+<section class="signin-section">
+    <div class="container-fluid">
+        <div class="row g-0 auth-row">
+            <div class="col-lg-6">
+                <div class="auth-cover-wrapper bg-primary-100">
+                    <div class="auth-cover">
+                        <div class="title text-center">
+                            <h1 class="text-primary mb-10">Haz tu pedido!</h1>
+                            <p class="text-medium">
+
+                            </p>
+                        </div>
+                        <div class="cover-image">
+                            <img style="width:100%;height:500px" src="~/Imagenes/pedidos.png" alt="pedidos" />
+                        </div>
+                        <div class="shape-image">
+                            <img src="#" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end col -->
+            <div class="col-lg-6">
+                <div class="signup-wrapper">
+                    <div class="form-wrapper">
+                        <h6 class="mb-15 text-center">@ViewBag.Title</h6>
+                        <hr />
+                        @using (Html.BeginForm("Agregar", "Pedidos", FormMethod.Post, new { role = "form" }))
+                        {
+                            @Html.AntiForgeryToken()
+                            @Html.ValidationSummary("", new { @class = "text-danger" })
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="input-style-1">
+                                        @Html.LabelFor(m => m.nombre_cliente)
+                                        <br />
+                                        <br />
+                                        @Html.TextBoxFor(m => m.nombre_cliente)
+                                        @Html.ValidationMessageFor(m => m.nombre_cliente, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="input-style-1">
+                                        @Html.LabelFor(m => m.direccion_cliente)
+                                        <br />
+                                        <br />
+                                        @Html.TextBoxFor(m => m.direccion_cliente)
+                                        @Html.ValidationMessageFor(m => m.direccion_cliente, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="input-style-1">
+                                        @Html.LabelFor(m => m.telefono_celular)
+                                        <br />
+                                        <br />
+                                        @Html.TextBoxFor(m => m.telefono_celular, new { @type = "number" })
+                                        @Html.ValidationMessageFor(m => m.telefono_celular, "", new { @class = "text-danger", @type = "number" })
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="input-style-1">
+                                        @Html.LabelFor(m => m.Date)
+                                        <br />
+                                        <br />
+                                        @Html.EditorFor(m => m.Date)
+                                        @Html.ValidationMessageFor(m => m.Date, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="col-12">
+                                        <div class="input-style-1">
+                                            @Html.LabelFor(m => m.nombre_cantidad_platillo)
+                                            <br />
+                                            <br />
+                                            @Html.TextAreaFor(m => m.nombre_cantidad_platillo)
+                                            @Html.ValidationMessageFor(m => m.nombre_cantidad_platillo, "", new { @class = "text-danger", @type = "number" })
+                                        </div>
+                                    </div>
+                                    <div class="col-12 ">
+                                        <div class="select-style-1">
+                                            @Html.LabelFor(m => m.estado_pedido)
+                                            <br />
+                                            <br />
+                                            <div class="select-position">
+                                                @Html.DropDownListFor(m => m.estado_pedido, estado)
+                                            </div>
+
+                                            @Html.ValidationMessageFor(m => m.estado_pedido, "", new { @class = "text-danger" })
+                                        </div>
+
+                                        <!-- end col -->
+                                        <div class="col-12">
+                                            <div class="button-group d-flex justify-content-center flex-wrap">
+                                                <button type="submit" class="main-btn primary-btn btn-hover w-100 text-center">
+                                                    <i class="fas fa-save"></i>  AGREGAR PEDIDO
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end row -->
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
